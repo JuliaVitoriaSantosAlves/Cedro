@@ -1,0 +1,33 @@
+.navegador {
+    padding: 1.5rem;
+    background-color: #555;
+}
+
+.navegador-div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: auto;
+}
+
+form {
+    margin: 0 3rem;
+}
+
+input {
+    height: 6vh;
+    width: 60vw;
+    border: none;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input.focus {
+    border-color: blue;
+}
+
+button {
+    height: 6vh;
+    border-radius: 5px;
+    border: none;
+}
